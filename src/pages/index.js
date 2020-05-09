@@ -3,16 +3,18 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import gif from '../images/eatyoursprouts.gif'
+import Image from './../components/image'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <Image />
     <h1>Welcome Yall</h1>
+
+    <h3>How's it going though?</h3>
     <p>This is a sample site to test Gatsby</p>
-    <div style={{ width: `100%`, marginBottom: `1.45rem` }}>
-      <img src={gif} alt="eat your sprouts" />
-    </div>
+    <p>Proident qui cupidatat deserunt veniam. Nisi ipsum aliquip ullamco voluptate elit laboris fugiat nostrud dolore enim laboris in quis.</p>
+
   </Layout>
 )
 

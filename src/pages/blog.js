@@ -1,11 +1,15 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
+import BlogHeader from './../components/blogHeader'
+
+
+
 
 const blog = ({ data }) => (
     <Layout>
         <div>
-            <h1>Latest Posts</h1>
+            <BlogHeader />
             {data.allMarkdownRemark.edges.map(post => (
                 <div key={post.node.id}>
                     <h3>{post.node.frontmatter.title}</h3>
