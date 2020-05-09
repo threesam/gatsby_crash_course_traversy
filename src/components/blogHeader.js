@@ -10,7 +10,7 @@ const blogHeader = () => {
             width: `100vw`,
             paddingTop: `0.73rem`,
             paddingBottom: `0`,
-            marginLeft: `-1.05rem`,
+            marginLeft: `calc(-1.1rem + 1px)`,
             marginTop: `-1.45rem`,
             marginBottom: `1.45rem`,
             backgroundColor: `rgba(0, 0,0, 0.9)`,
