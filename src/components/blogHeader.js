@@ -7,14 +7,14 @@ const blogHeader = () => {
     return (
         <div style={{
             display: `relative`,
-            width: `100vw`,
+            width: `100.1vw`,
             paddingTop: `0.73rem`,
             paddingBottom: `0`,
-            marginLeft: `calc(-1.1rem + 1px)`,
+            marginLeft: `-1.1rem`,
             marginTop: `-1.45rem`,
             marginBottom: `1.45rem`,
             backgroundColor: `rgba(0, 0,0, 0.9)`,
-            color: `white`
+            color: `whitesmoke`
         }}>
             <h1 style={{
                 marginLeft: `0.73rem`
