@@ -6,10 +6,11 @@ import './blog.css'
 const blogHeader = () => {
     return (
         <div style={{
+            display: `relative`,
             width: `100vw`,
             paddingTop: `0.73rem`,
             paddingBottom: `0`,
-            marginLeft: `-1rem`,
+            marginLeft: `-1.1rem`,
             marginTop: `-1.45rem`,
             marginBottom: `1.45rem`,
             backgroundColor: `rgba(0, 0,0, 0.9)`,
